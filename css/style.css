@@ -80,6 +80,63 @@ body {
     color: #e2e8f0;
 }
 
+/* CV ACTIONS WRAPPER */
+.cv-actions {
+    display: flex;
+    gap: 14px;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+}
+
+/* BASE BUTTON STYLE (CONSISTENT SIZE) */
+.cv-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 12px 22px;
+    min-width: 160px;
+
+    font-size: 0.95rem;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+
+    border-radius: 6px;
+    border: 1px solid transparent;
+
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.25s ease;
+}
+
+/* PRIMARY: VIEW CV */
+.cv-actions button.cv-button {
+    background-color: #2563eb; /* refined blue */
+    color: #ffffff;
+}
+
+.cv-actions button.cv-button:hover {
+    background-color: #1e40af;
+    transform: translateY(-1px);
+}
+
+/* SECONDARY: DOWNLOAD CV */
+.cv-actions a.cv-button {
+    color: #94a3b8;
+    border-color: #94a3b8;
+}
+
+.cv-actions a.cv-button:hover {
+    background-color: rgba(37, 99, 235, 0.08);
+    transform: translateY(-1px);
+}
+
+/* ACCESSIBILITY */
+.cv-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3);
+}
+
 /* ============================
    Sections
 ============================ */

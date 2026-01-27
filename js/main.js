@@ -1,6 +1,6 @@
 function viewCV() {
     window.open(
-        "Kyle_Patrick_Galiza_CV.pdf",
+        "assets/files/GalizaCV.pdf",
         "_blank",
         "noopener,noreferrer"
     );

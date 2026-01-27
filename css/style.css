@@ -122,8 +122,9 @@ body {
 
 /* SECONDARY: DOWNLOAD CV */
 .cv-actions a.cv-button {
-    color: #94a3b8;
-    border-color: #94a3b8;
+    background-color: transparent;
+    color: #2563eb;
+    border: 1px solid #2563eb;
 }
 
 .cv-actions a.cv-button:hover {

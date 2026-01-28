@@ -1,7 +1,7 @@
 function viewCV() {
-    window.open(
-        "assets/files/GalizaCV.pdf",
-        "_blank",
-        "noopener,noreferrer"
-    );
+    document.getElementById("cvModal").style.display = "block";
+}
+
+function closeCV() {
+    document.getElementById("cvModal").style.display = "none";
 }

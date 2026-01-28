@@ -208,6 +208,74 @@ body {
     margin-bottom: 0;
 }
 
+/* ===== TECH STACK (CATEGORIZED) ===== */
+
+.tech-stack {
+    background-color: #f8f9fa;
+}
+
+.tech-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #111827;
+}
+
+/* Outer Box */
+.tech-stack-box {
+    border: 1px solid #d1d5db;
+    border-left: 4px solid #111827;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 1.5rem;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+/* Category */
+.tech-category h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.75rem;
+    color: #1f2937;
+}
+
+/* Items */
+.tech-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+}
+
+.tech-items span {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+
+    padding: 0.45rem 0.65rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    background-color: #f9fafb;
+
+    font-size: 0.9rem;
+    color: #374151;
+    white-space: nowrap;
+}
+
+.tech-items i {
+    font-size: 1.2rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .tech-stack-box {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* ============================
    Skills Cards
 ============================ */

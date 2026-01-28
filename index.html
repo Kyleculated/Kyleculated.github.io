@@ -23,10 +23,14 @@
                 with strong focus on backend logic, database design, and clean UI.
             </p>
 
+            <!-- CV Download CTA -->
             <div class="cv-actions">
-                <button class="cv-button primary" onclick="viewCV()">View CV</button>
-                <a href="assets/files/GalizaCV.pdf" download class="cv-button secondary">
-                    Download CV
+                <button class="cv-button" onclick="viewCV()">
+                    View CV
+                </button>
+
+                <a href="assets/files/GalizaCV.pdf" download class="cv-button">
+                    Download CV (PDF)
                 </a>
             </div>
         </div>
@@ -36,16 +40,15 @@
 <main>
 
 <!-- PROFESSIONAL SUMMARY -->
-<section class="section">
-    <div class="container wide-grid">
+<section class="section summary">
+    <div class="container narrow">
         <h3>Professional Summary</h3>
-
-        <div class="info-grid">
-            <div class="info-card">Computer Science student specializing in full-stack web development</div>
-            <div class="info-card">Experienced in Django-based backend systems and database integration</div>
-            <div class="info-card">Strong foundation in clean code, MVC architecture, and CRUD systems</div>
-            <div class="info-card">Comfortable with deployment workflows using Git, Docker, and Heroku</div>
-        </div>
+        <ul class="summary-list">
+            <li>Computer Science student specializing in full-stack web development</li>
+            <li>Experienced in Django-based backend systems and database integration</li>
+            <li>Strong foundation in clean code, MVC architecture, and CRUD systems</li>
+            <li>Comfortable with deployment workflows using Git, Docker, and Heroku</li>
+        </ul>
     </div>
 </section>
 
@@ -57,22 +60,34 @@
         <div class="special-grid">
             <div class="special-card">
                 <h4>Full-Stack Development</h4>
-                <p>Design and develop complete web applications from frontend interfaces to backend logic and database structure.</p>
+                <p>
+                    Design and develop complete web applications from frontend
+                    interfaces to backend logic and database structure.
+                </p>
             </div>
 
             <div class="special-card">
                 <h4>Backend Logic & Systems</h4>
-                <p>Implement authentication, queueing logic, business rules, and secure data handling using Django.</p>
+                <p>
+                    Implement authentication, queueing logic, business rules,
+                    and secure data handling using Django.
+                </p>
             </div>
 
             <div class="special-card">
                 <h4>Database Design</h4>
-                <p>Structure relational databases using PostgreSQL and SQLite with proper relationships and normalization.</p>
+                <p>
+                    Structure relational databases using PostgreSQL and SQLite
+                    with proper relationships and normalization.
+                </p>
             </div>
 
             <div class="special-card">
                 <h4>Deployment-Ready Builds</h4>
-                <p>Prepare applications for production using Git-based workflows, Docker containers, and cloud deployment.</p>
+                <p>
+                    Prepare applications for production using Git-based workflows,
+                    Docker containers, and cloud deployment.
+                </p>
             </div>
         </div>
     </div>
@@ -85,35 +100,54 @@
 
         <article class="case">
             <h4>Pagtakhan Medical Clinic – Online Appointment & Queue System</h4>
-            <p class="case-subtitle">Undergraduate Thesis Project | Solo Developer</p>
+            <p class="case-subtitle">
+                Undergraduate Thesis Project | Solo Developer
+            </p>
 
             <div class="case-grid">
-                <div class="case-box">
+                <div>
                     <h5>Project Context</h5>
-                    <p>This system was developed as my undergraduate thesis project, addressing real-world operational challenges faced by a local medical clinic.</p>
+                    <p>
+                        This system was developed as my undergraduate thesis project,
+                        addressing real-world operational challenges faced by a local
+                        medical clinic in managing patient appointments and queues.
+                    </p>
                 </div>
 
-                <div class="case-box">
+                <div>
                     <h5>Problem</h5>
-                    <p>The clinic relied on manual scheduling, resulting in inefficient patient flow and long waiting times.</p>
+                    <p>
+                        The clinic relied on manual scheduling, resulting in inefficient
+                        patient flow, long waiting times, and limited visibility of queue
+                        status.
+                    </p>
                 </div>
 
-                <div class="case-box">
+                <div>
                     <h5>Solution</h5>
-                    <p>A web-based appointment and queueing system enabling online booking and dynamic admin queue control.</p>
+                    <p>
+                        A web-based appointment and queueing system that allows patients
+                        to book schedules online while enabling administrators to manage
+                        queues dynamically and efficiently.
+                    </p>
                 </div>
 
-                <div class="case-box">
+                <div>
                     <h5>My Role</h5>
-                    <p>Sole developer responsible for system design, backend logic, database architecture, frontend integration, and deployment.</p>
+                    <p>
+                        Sole developer responsible for system design, backend logic,
+                        database architecture, frontend integration, and deployment.
+                    </p>
                 </div>
 
-                <div class="case-box">
+                <div>
                     <h5>Technologies</h5>
-                    <p>Django, Python, PostgreSQL, HTML, CSS, Git, Docker, Heroku</p>
+                    <p>
+                        Django, Python, PostgreSQL, HTML, CSS, Git, Docker, Heroku
+                    </p>
                 </div>
 
-                <div class="case-box">
+                <div>
                     <h5>Key Features</h5>
                     <ul>
                         <li>Online appointment scheduling</li>
@@ -124,9 +158,13 @@
                     </ul>
                 </div>
 
-                <div class="case-box full">
+                <div>
                     <h5>Outcome</h5>
-                    <p>The system digitized clinic operations, improved queue efficiency, and demonstrated real-world full-stack development skills.</p>
+                    <p>
+                        The system successfully digitized clinic operations, improved
+                        queue efficiency, and demonstrated the practical application of
+                        full-stack web development concepts in a real-world environment.
+                    </p>
                 </div>
             </div>
         </article>
@@ -134,41 +172,39 @@
 </section>
 
 <!-- TECHNICAL HIGHLIGHTS -->
-<section class="section">
-    <div class="container wide-grid">
+<section class="section highlights">
+    <div class="container narrow">
         <h3>Technical Highlights</h3>
-
-        <div class="info-grid">
-            <div class="info-card">MVC architecture using Django class-based views</div>
-            <div class="info-card">Queue logic and state-based workflows</div>
-            <div class="info-card">Authentication and role-based access control</div>
-            <div class="info-card">Clean, maintainable, scalable code structure</div>
-            <div class="info-card">Database-driven features with relational integrity</div>
-        </div>
+        <ul class="highlight-list">
+            <li>MVC architecture using Django class-based views</li>
+            <li>Queue logic and state-based workflows</li>
+            <li>Authentication and role-based access control</li>
+            <li>Clean, maintainable, and scalable code structure</li>
+            <li>Database-driven features with relational integrity</li>
+        </ul>
     </div>
 </section>
 
 <!-- ACHIEVEMENTS -->
-<section class="section">
-    <div class="container wide-grid">
+<section class="section achievements">
+    <div class="container narrow">
         <h3>Achievements & Academic Highlights</h3>
-
-        <div class="info-grid">
-            <div class="info-card">Consistent Dean’s Lister – BS Computer Science</div>
-            <div class="info-card">Completed multiple Django-based academic and personal projects</div>
-            <div class="info-card">Strong academic standing with focus on web technologies</div>
-        </div>
+        <ul class="achievement-list">
+            <li>Consistent Dean’s Lister – BS Computer Science</li>
+            <li>Completed multiple Django-based academic and personal projects</li>
+            <li>Strong academic standing with focus on web technologies</li>
+        </ul>
     </div>
 </section>
 
 <!-- PROFESSIONAL EXTRAS -->
-<section class="section">
+<section class="section extras">
     <div class="container narrow">
         <h3>Professional Extras</h3>
-        <div class="info-card single">
-            Actively improving backend architecture skills, exploring system scalability,
-            and strengthening production-level development practices.
-        </div>
+        <p>
+            Actively improving backend architecture skills, exploring system
+            scalability, and strengthening production-level development practices.
+        </p>
     </div>
 </section>
 
@@ -176,11 +212,16 @@
 <section class="section contact">
     <div class="container narrow">
         <h3>Contact</h3>
-        <div class="contact-card">
-            <p>Bacoor City, Cavite, Philippines</p>
-            <p>kylepatrick0609@gmail.com</p>
-            <p>0967 239 3980</p>
-        </div>
+        <ul>
+            <li>Bacoor City, Cavite, Philippines</li>
+            <li>kylepatrick0609@gmail.com</li>
+            <li>0967 239 3980</li>
+            <!-- <li>
+                <a href="https://www.facebook.com/YOUR_FACEBOOK_USERNAME" target="_blank">
+                    facebook.com/YOUR_FACEBOOK_USERNAME
+                </a>
+            </li> -->
+        </ul>
     </div>
 </section>
 
@@ -189,7 +230,6 @@
 <footer class="footer">
     <p>© 2026 Kyle Patrick Galiza</p>
 </footer>
-
 <script src="js/main.js"></script>
 </body>
 </html>
